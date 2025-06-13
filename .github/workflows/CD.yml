@@ -39,4 +39,5 @@ jobs:
         if: success()
         run: ./gradlew publish
         env:
+          GITHUB_USER: fik4er
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
